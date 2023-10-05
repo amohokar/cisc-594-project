@@ -25,6 +25,13 @@ var TrendingCard = [
     Card(id: 3, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
     Card(id: 4, image: "maxresdefault2", title: "Shrimp Fries", descrip: "Hot Sauce",stars: 3, expand: false),
     Card(id: 5, image: "maxresdefault3", title: "Pizza pineapple", descrip: "dont buy iy",stars: 1, expand: false),
+    Card(id: 6, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
+    Card(id: 7, image: "maxresdefault2", title: "Shrimp Fries", descrip: "Hot Sauce",stars: 3, expand: false),
+    Card(id: 8, image: "maxresdefault3", title: "Chinese Salad", descrip: "Best Seller",stars: 4, expand: false),
+    Card(id: 9, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
+    Card(id: 10, image: "maxresdefault2", title: "Shrimp Fries", descrip: "Hot Sauce",stars: 3, expand: false),
+    Card(id: 11, image: "maxresdefault3", title: "Pizza pineapple", descrip: "dont buy iy",stars: 1, expand: false),
+
 ]
 
 var FoodTypes = ["Pizza","Drinks","Tacos","Burger","Fries","Top"]
