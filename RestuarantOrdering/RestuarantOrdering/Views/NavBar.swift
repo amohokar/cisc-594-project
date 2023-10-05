@@ -15,29 +15,22 @@ struct NavBar: View {
     }
     var body: some View {
         TabView(selection: $selection) {
-//            HomeView().tabItem {
-//                VStack {
-//                    Image(systemName: "house.fill")
-//                    Text("Home")
-//                }
-//
-//            }.tag(1)
-//
-//            CheckOut().tabItem {
-//                VStack {
-//                    Image(systemName: "heart.fill")
-//                    Text("Favorite")
-//                }
-//
-//            }.tag(2)
-//
-//            Text("Profile").tabItem {
-//                VStack {
-//                    Image(systemName: "person.fill")
-//                    Text("Profile")
-//                }
-//
-//            }.tag(3)
+            HomeView().tabItem {
+                VStack {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
+
+            }.tag(1)
+
+            CheckOut().tabItem {
+                VStack {
+                    Image(systemName: "heart.fill")
+                    Text("Favorite")
+                }
+
+            }.tag(2)
+
        }
         .accentColor(.red)
     }
