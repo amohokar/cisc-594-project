@@ -1,9 +1,10 @@
 //
-//  Card.swift
-//  Food
+//  WeclomeView.swift
+//  RestuarantOrdering
 //
-//  Created by BqNqNNN on 7/13/20.
+//  Created by Kushboo Patel on 10/4/23.
 //
+
 
 import Foundation
 

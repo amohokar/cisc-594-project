@@ -1,10 +1,10 @@
 //
-//  navBar.swift
-//  FoodDelivery
+//  WeclomeView.swift
+//  RestuarantOrdering
 //
-//  Created by BqNqNNN on 7/9/20.
-//  Copyright © 2020 BqNqNNN. All rights reserved.
+//  Created by Kushboo Patel on 10/4/23.
 //
+
 
 import SwiftUI
 
