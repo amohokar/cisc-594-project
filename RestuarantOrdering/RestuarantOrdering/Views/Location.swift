@@ -25,7 +25,7 @@ struct Location: View {
                         .padding(.all, 20)
                     
                     NavigationLink(
-                        destination: NavBar().navigationBarBackButtonHidden(true).navigationBarHidden(true),
+                        destination: HomeView().navigationBarBackButtonHidden(true).navigationBarHidden(true),
                         label: {
                             HStack {
                                 Image(systemName: "location.fill")
