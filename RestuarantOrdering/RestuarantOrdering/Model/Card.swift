@@ -1,9 +1,10 @@
 //
-//  Card.swift
-//  Food
+//  WeclomeView.swift
+//  RestuarantOrdering
 //
-//  Created by BqNqNNN on 7/13/20.
+//  Created by Kushboo Patel on 10/4/23.
 //
+
 
 import Foundation
 
@@ -17,6 +18,8 @@ struct Card : Identifiable {
     var price = "$25.00"
     var expand : Bool
 }
+
+var checkout: [Card] = []
 
 var TrendingCard = [
     Card(id: 0, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
@@ -35,3 +38,10 @@ var TrendingCard = [
 ]
 
 var FoodTypes = ["Pizza","Drinks","Tacos","Burger","Fries","Top"]
+
+var cart = [
+    Card(id: 0, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
+    Card(id: 1, image: "maxresdefault2", title: "Shrimp Fries", descrip: "Hot Sauce",stars: 3, expand: false),
+    Card(id: 2, image: "maxresdefault3", title: "Chinese Salad", descrip: "Best Seller",stars: 4, expand: false),
+    Card(id: 3, image: "maxresdefault1", title: "Crispy Chicken Sandwich", descrip: "KoreanBBQ",stars: 5, expand: false),
+]
